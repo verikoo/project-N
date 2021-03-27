@@ -1,5 +1,5 @@
 /* header start */
-@font-face{
+/* @font-face{
 	font-family: georgian;
 	src:url("../fonts/arial-geo-webfont.ttf");
 }
@@ -7,24 +7,24 @@
 *{
     font-family: georgian;
     
-}
+} */
 .navbar{
     padding: 50px;
     height: 100px;
-    background-color: #dafbff;
+    background-color: #cee9ea;
     
 }
 .navbar-right button{
     background-color: transparent;
-    border: 1px solid  #E5B962;
+    border: 1px solid  #396ae6ce;
     border-radius: 8px;
-    color: white;
+    color: #396ae6ce;
     padding: 10px;
 }
 
 .navbar-right button:hover{
-    background-color:#E5B962;
-    color: black;
+    background-color:#396ae6ce;
+    color:white;
     transition: 1s;
 }
 
@@ -157,7 +157,7 @@ color:white;
 
 /* footer start */
 footer{
-    background-color:#84ceeb ;
+    background-color:#cee9ea ;
 }
 .footer-contact-number{
     color: white;
@@ -172,7 +172,26 @@ footer{
 }
 
 .footer-icons img{
-    width: 24px;
-    
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.footer-navbar a{
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;
+    /* color: #396ae6ce; */
+}
+.footer-contact p{
+    color: #396ae6ce ;
+}
+
+
+/* .footer-contact {
+    display: block;
+    
+    
+} */
 
